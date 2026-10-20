@@ -7,11 +7,19 @@
 		<title>Document</title>
 	</head>
 	<body>
-		<div>
-			<input type="text" placeholder="Новая задача" />
-			<button>Добавить</button>
-			<ul></ul>
+		<h1>Список дел</h1>
+		<div class="input-group">
+			<input
+				class="task-input"
+				data-js-input
+				type="text"
+				placeholder="Новая задача"
+			/>
+			<button class="add-btn" data-js-add-task>Добавить</button>
 		</div>
+		<ul class="task-list" data-js-list>
+		</ul>
+
 		<script src="script_1.js"></script>
 	</body>
 </html>
